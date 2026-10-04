@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tonybluze – VRChat Avatar Portfolio</title>
+<style>
+:root{--bg:#f6f5fb;--card:#fff;--ink:#1d1b2e;--mute:#6b6880;--line:#e3e0ef;--accent:#7c5cff;--accent2:#ff6fb1;--on:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#13121c;--card:#1d1b2b;--ink:#f1effa;--mute:#a09cb8;--line:#2e2b42;--accent:#9a82ff;--accent2:#ff86c0;--on:#13121c}}
+:root[data-theme="dark"]{--bg:#13121c;--card:#1d1b2b;--ink:#f1effa;--mute:#a09cb8;--line:#2e2b42;--accent:#9a82ff;--accent2:#ff86c0;--on:#13121c}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Inter",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+a{color:inherit}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);display:flex;gap:4px;justify-content:center;flex-wrap:wrap;padding:10px 12px}
+nav a{text-decoration:none;font-weight:600;font-size:14px;padding:8px 14px;border-radius:999px;color:var(--mute)}
+nav a:hover,nav a:focus-visible{background:var(--card);color:var(--ink);outline:2px solid var(--accent)}
+section{max-width:960px;margin:0 auto;padding:64px 20px}
+header.top{text-align:center;padding:48px 20px 0;max-width:960px;margin:0 auto}
+header.top h1{font-size:clamp(28px,6vw,48px);line-height:1.1;margin:0 0 10px;letter-spacing:-.02em}
+header.top p{margin:0;color:var(--mute);font-size:14px}
+.hero{text-align:center}
+.hero h2{font-size:clamp(32px,7vw,56px);line-height:1.05;margin:0 0 14px;letter-spacing:-.03em}
+.hero p{max-width:560px;margin:0 auto 24px;color:var(--mute)}
+.btn{display:inline-block;background:var(--accent);color:var(--on);font-weight:700;text-decoration:none;padding:12px 24px;border-radius:12px}
+.btn:focus-visible{outline:3px solid var(--ink);outline-offset:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px;margin-top:36px}
+.tile{aspect-ratio:3/4;border-radius:16px;border:1px solid var(--line);display:flex;align-items:flex-end;padding:12px;font-size:13px;font-weight:600;color:var(--mute);background:linear-gradient(160deg,color-mix(in srgb,var(--accent) 22%,var(--card)),color-mix(in srgb,var(--accent2) 22%,var(--card)))}
+.tile:nth-child(even){background:linear-gradient(200deg,color-mix(in srgb,var(--accent2) 22%,var(--card)),color-mix(in srgb,var(--accent) 22%,var(--card)))}
+h3{font-size:clamp(24px,4vw,32px);margin:0 0 20px;letter-spacing:-.02em}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px}
+.card h4{margin:0 0 12px;font-size:18px}
+.card ul,.card ol{margin:0;padding-left:20px}
+.card li{margin:6px 0}
+.price{list-style:none;padding:0!important}
+.price li{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding:10px 0;margin:0}
+.price li:last-child{border:0}
+.price b{color:var(--accent)}
+.note{color:var(--mute);font-size:14px;margin-top:12px}
+.links{display:flex;flex-wrap:wrap;gap:10px}
+.links svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.800;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.links a{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);padding:10px 18px;border-radius:12px;text-decoration:none;font-weight:600}
+.links a:hover,.links a:focus-visible{border-color:var(--accent);outline:none}
+footer{text-align:center;color:var(--mute);font-size:13px;padding:24px 20px 40px}
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>Tonybluze – VRChat Avatar Portfolio</h1>
+  <p>Custom VRChat avatars · Furry avatars · VTuber models · PC and Quest optimized</p>
+</header>
+<nav aria-label="Sections">
+  <a href="#home">Home</a><a href="#portfolio">Portfolio</a><a href="#commissions">Commission info</a><a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+  <h2>Bringing virtual characters to life</h2>
+  <p>I build expressive, high-quality 3D avatars for creators, streamers, and virtual worlds. Cute and cozy or bold and futuristic, your digital identity starts here.</p>
+  <a class="btn" href="#commissions">See pricing</a>
+</section>
+
+<section id="portfolio">
+  <h3>Portfolio</h3>
+  <div class="grid">
+    <div class="tile"></div><div class="tile"></div><div class="tile"></div>
+    <div class="tile"></div><div class="tile"></div><div class="tile"></div>
+    <div class="tile"></div><div class="tile"></div>
+  </div>
+  <p class="note">Placeholder tiles: add your own renders here.</p>
+</section>
+
+<section id="commissions">
+  <h3>Commission info</h3>
+  <div class="cols">
+    <div class="card">
+      <h4>How to order</h4>
+      <ol>
+        <li>Message me your idea</li>
+        <li>Share references: images, colors, style</li>
+        <li>I confirm price and timeline</li>
+        <li>Pay 50% upfront to start</li>
+        <li>Preview, revisions, final delivery</li>
+      </ol>
+    </div>
+    <div class="card">
+      <h4>Pricing (starting from)</h4>
+      <ul class="price">
+        <li><span>VRChat avatars</span><b>$600+</b></li>
+        <li><span>Furry models</span><b>$450+</b></li>
+        <li><span>VTuber models</span><b>$650+</b></li>
+        <li><span>Edits and upgrades</span><b>$170+</b></li>
+      </ul>
+      <p class="note">Final price depends on complexity, features, and deadline.</p>
+    </div>
+    <div class="card">
+      <h4>Turnaround</h4>
+      <ul>
+        <li>Standard: 1–4 weeks</li>
+        <li>Rush orders available for an extra fee</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h4>What you get</h4>
+      <ul>
+        <li>Fully rigged avatar</li>
+        <li>Optimized performance</li>
+        <li>Textures and materials</li>
+        <li>Unity / VRChat-ready files</li>
+        <li>Support after delivery</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h3>Contact</h3>
+  <div class="links">
+    <a href="mailto:you@example.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3z"/><path d="m3 7 9 6 9-6"/></svg>Email</a>
+    <a href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7c3-1.5 7-1.5 10 0 2 3 3 6 3 10-1.500 1-3 1.600-4.500 2l-1-2c-2 .5-3 .5-5 0l-1 2C6 18.600 4.500 18 3.500 17c0-4 1-7 3.500-10z"/><circle cx="9" cy="12.500" r="1"/><circle cx="15" cy="12.500" r="1"/></svg>Discord</a>
+    <a href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.500a3.500 3.500 0 1 1-3.500-3.500"/><path d="M14 3c.500 2.500 2 4 5 4.200"/></svg>TikTok</a>
+    <a href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h18a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-4.500l-1.500-2h-6l-1.500 2H3a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="8" cy="12" r="1"/><circle cx="16" cy="12" r="1"/></svg>VRChat</a>
+    <a href="#"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 4 3 11l5.500 2L10 19l3-4 4.500 3.500z"/><path d="m8.500 13 8-6"/></svg>Telegram</a>
+  </div>
+</section>
+
+<footer>© Tonybluze</footer>
+</body>
+</html>
